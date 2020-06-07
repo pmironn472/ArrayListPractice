@@ -63,12 +63,7 @@ public class CRUD {
     }
 
     public static void find() {
-        names.add(new Person("Ja0"));
-        names.add(new Person("Ja1"));
-        names.add(new Person("Ja2"));
-        names.add(new Person("Ja"));
-        names.add(new Person("J"));
-        names.add(new Person("J"));
+       
         int i = 0;
         while (i < 6) {
             if (names.get(i).getFullName().equals(person.get(2).getFullName())) {
